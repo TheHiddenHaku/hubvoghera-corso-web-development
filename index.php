@@ -3,9 +3,7 @@
     require_once "config/site_config.php";
 
     $klein->respond('GET', '/', function () {
-        print_r("test");
+        echo "Hello World!";
     });
     
-    
-
     $klein->dispatch();
