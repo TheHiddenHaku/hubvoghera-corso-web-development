@@ -1,0 +1,14 @@
+{
+    "name": "hubvoghera/webdev101",
+    "description": "prima lezione",
+    "authors": [
+        {
+            "name": "TheHiddenHaku",
+            "email": "haku78@gmail.com"
+        }
+    ],
+    "require": {
+        "klein/klein": "~2.1",
+        "illuminate/database": "*"
+    }
+}
