@@ -3,7 +3,8 @@
 
 // Run button configuration
   "commands": {
-        "Node version": "node --version"
+      "Node version": "node --version",
+      "PHP Info": "php --info"
   },
 
 // Preview button configuration
