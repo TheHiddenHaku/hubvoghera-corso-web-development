@@ -3,8 +3,7 @@
     require_once "config/site_config.php";
     
     $klein->respond('GET', '/', function () {
-        $controller = new DefaultController();
-        $controller->hello();
+        echo "<h1>Benvenuti al corso di Web Development</h1>";
     });
 
     $klein->respond('/hello/[:name]', function ($request) {
