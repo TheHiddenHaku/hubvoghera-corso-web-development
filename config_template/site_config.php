@@ -15,4 +15,4 @@
 	//Carichiamo le librerie necessarie a tutte le nostre url
 	require_once $settings['fisical_path'] .'/vendor/autoload.php';
 	require_once $settings['fisical_path'] .'/config/db_config.php';
-	require_once $settings['fisical_path'] .'/my_libs/Helper.php';
+	require_once $settings['fisical_path'] .'/libs/Helper.php';
